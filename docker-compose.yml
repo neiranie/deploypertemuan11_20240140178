@@ -15,7 +15,7 @@ services:
       - db_data:/var/lib/postgresql/data
 
   app:
-    build: .
+    image: neiranie/pertemuan11:1.0
     container_name: pertemuan11
     ports:
       - "8000:8080"
